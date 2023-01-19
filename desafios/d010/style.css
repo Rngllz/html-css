@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: fonte;
+    src: url(fontes/idroid.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+    background-color: rgb(250, 222, 189);
+}
+
+body > header{
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to top, rgb(2, 70, 2), rgb(77, 206, 77));
+    padding: 5px;
+    padding-bottom: 5px;
+    margin: auto;
+    box-shadow: 1px 1px 10px -3px green
+}
+body > header > h1{
+    margin: 10jpx;
+}
+body > header > p{
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-indent: 0px;
+    text-align: center;
+}
+
+nav{
+    text-align: left;
+}
+nav > a{
+    padding-left: 10px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 0.8em;
+    padding: 10px;
+    padding-bottom: 6px;
+    margin-left: 0px;
+    border-radius: 3px 3px 0px 0px;
+}
+nav > a:hover{
+    background-color: rgb(22, 190, 72);
+}
+
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 800px;
+    min-height: 2100px;
+    max-height: 3000px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 40px;
+    box-shadow: 1px 2px 12px -4px black;
+    border-radius: 0px 0px 10px 20px;
+}
+
+p{
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 1.6em;
+}
+
+#info{
+    margin: auto;
+}
+article{
+    margin: auto;
+}
+#info > h1{
+    font-family: fonte;
+    color: rgb(9, 85, 9);
+    font-weight: normal;
+    font-size: 2em;
+    margin-top: 0px;
+}
+
+#video{
+    background-color: rgb(20, 126, 20);
+    margin: 0px -20px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+#extra{
+    background-color: rgba(22, 158, 22, 0.342);
+    min-width: 420px;
+    min-height: 440px;
+    max-width: 800px;
+    border-radius: 20px;
+}
+#extra > header{
+    background-color: rgba(22, 158, 22, 0.507);
+    border-radius: 20px 20px 0px 0px;
+    padding: 20px;
+}
+#extra > header > p{
+    margin: 0px;
+    text-indent: 0px;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+}
+#extra > p{
+    margin: 16px;
+}
+#extra > ul{
+    columns: 2;
+}
+
+
+
+footer{
+    text-align: center;
+    background-color: rgb(2, 61, 2);
+    color: white;
+}
+footer > p{
+    padding: 3px;
+    margin: auto;
+    margin-bottom: 0px;
+    font-weight: normal;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.pessoa{
+    color: darkgreen;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.pessoa:hover{
+    text-decoration: underline;
+}
+
+.subtitulo{
+    color: darkgreen;
+    font-family: fonte;
+    font-weight: normal;
+    font-size: 1.5em;
+    background-image: linear-gradient(to right,rgba(9, 85, 9, 0.274),white);
+}

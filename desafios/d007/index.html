@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Aqui está nossa imagem</h1>
+        <p>Totalmente responsiva com o tamanho da tela disponível</p>
+
+        <picture>
+            <source media="(max-width: 1810px)" srcset="imagens/foto-4.jpg" type="image/jpeg">
+            <source media="(max-width: 2550px)" srcset="imagens/foto-3.jpg" type="image/jpeg">
+            <source media="(max-width: 3810px)" srcset="imagens/foto-2.jpg" type="image/jpeg">
+            <img src="imagens/foto-1.jpg" alt="Imagem homem e mulher em um café">
+            <p>O seu navegador não conseguiu carregar a imagem, clique <a href="imagens/foto-original.jpg" download="foto-original.jpg" type="image/jpeg">aqui</a> para baixa-la</p>
+        </picture>
+    </body>
+</html>
