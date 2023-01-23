@@ -1,0 +1,74 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;300;400;500;700&family=Share+Tech+Mono&display=swap');
+
+:root{
+    --cor1:#29D9D9;
+    --cor2:#49C2F2;
+    --cor3:#6689F2;
+    --cor4:#7350F2;
+    --cor5:#881DF2;
+
+    --titulo: 'MuseoModerno', cursive;
+    --texto: 'Share Tech Mono', monospace;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-family: var(--titulo);
+}
+p{
+    font-family: var(--texto);
+}
+
+header{
+    background-image: linear-gradient(to top, var(--cor2),var(--cor3));
+    height: 100px;
+}
+header  h1{
+    font-size: 3em;
+    color: white;
+}
+header  p{
+    text-indent: 30px;
+    font-size: 1em;
+    color: white;
+}
+#divHeader{
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    max-width: 600px;
+    margin-left: 30px;
+}
+
+nav{
+    height: 37px;
+    text-align: right;
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor1));
+    padding-top: 20px;
+}
+nav > a{
+    background-color: red;
+    padding: 20px;
+    margin: 0px -2px 0px -2px;
+    border-radius: 12px 12px 0px 0px;
+    text-decoration: none;
+}
+
+#divIMG{
+    background-color: darkgrey;
+    height: 510px;
+    background: black url("imagens/fundo.jpg") left top no-repeat fixed;
+    background-size: cover;
+}
+main{
+    background-color: red;
+    height: 200px;
+}
+
+footer{
+    background-color: lightgray;
+    height: 80px;
+}
