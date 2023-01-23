@@ -12,11 +12,20 @@
     --cor3: #8C2703;
     --cor4: #260101;
     --cor5: #BF0404;
+
+    --cor6: #FCDE9C;
+    --cor7: #FFA552;
+    --cor8: #335145;
+    --cor9: #2F131E;
+    --cor10: #BA2D0B;
 }
 
 body{
     font-family: var(--padrao);
+}
+*{
     margin: 0px;
+    padding: 0px;
 }
 
 header{
@@ -41,9 +50,9 @@ header > p{
 }
 
 nav{
-    background-color: lightblue;
+    background-color: var(--cor4);
     margin: 0px;
-    padding: 5px;
+    padding: 6px;
 }
 nav > a{
     background-color: #260101;
@@ -59,8 +68,43 @@ nav > a{
 main{
     background-color: darkgray;
 }
+section{
+    padding: 30px;
+    background-color: #2f131e;
+}
+article{
+    margin-bottom: 10px;
+    background-color: red;
+}
+
 
 
 footer{
     background-color: lightgray;
+    text-align: center;
+}
+
+#art1{
+    background: black url("imagens/pexels-vincent-rivaud-2147491.jpg") left top no-repeat fixed;
+    box-shadow: inset 0px 0px 143px 20px black;
+    min-width: 200px;
+    padding: 30px;
+    text-align: left;
+    line-height: 1.5em;
+    color: white;
+    font-weight: bold;
+}
+#art2{
+    background: black url("imagens/pexels-vincent-rivaud-2147491.jpg") left top no-repeat fixed;
+    box-shadow: inset 0px 0px 143px 20px black;
+    min-width: 200px;
+    margin-right: 70%;
+    padding: 30px;
+    text-align: left;
+    line-height: 1.5em;  
+    color: white;
+    font-weight: bold;  
+}
+#asd1{
+    margin: 2%;
 }
