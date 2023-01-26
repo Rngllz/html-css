@@ -78,6 +78,7 @@ nav > a:hover{
     max-width: 450px;
     margin: auto; 
     padding: 15px;
+    border-radius: 20px;
 }
 #divB > p{
     margin-bottom: 15px;
