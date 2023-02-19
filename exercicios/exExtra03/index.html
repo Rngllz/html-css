@@ -6,33 +6,38 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="estilo/style.css">
         <link rel="shortcut icon" href="C:\Users\Ozeias\Documents\estudos cursoemvideo\html-css\exercicios\exExtra03\imagens\apartment_FILL0_wght400_GRAD0_opsz48.svg" type="image/x-ico">
-        <title>soluge</title>
+        <title>soluje</title>
     </head>
     <body>
         <header>
-            <h1>SOLUGE</h1>
+            <h1 class="logo">SOLUJE</h1>
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#">Sobre Nós</a></li>
+                </ul>
+            </nav>
+            <a href="#"><button>Contato</button></a>
         </header>
         <main>
-            <section class="conteudo" class="example">
-                <div class="slides">
-                    <input type="radio" name="slide" id="slide1" checked>
-                    <input type="radio" name="slide" id="slide2">
-                    <input type="radio" name="slide" id="slide3">
-
-                    <div class="slide s1">
+            <section id="slider">
+                <div>
+                    <figure class="container">
                         <img src="imagens/imagem1.jpg" alt="imagem 1">
-                    </div>
-                    <div class="slide">
-                        <img src="imagens/imagem2.jpg" alt="imagem 2">
-                    </div>
-                    <div class="slide">
-                        <img src="imagens/imagem3.jpg" alt="imagem 3">
-                    </div>
-                </div>
-                <div class="navigation">
-                    <label for="slide1" class="bar"></label>
-                    <label for="slide2" class="bar"></label>
-                    <label for="slide3" class="bar"></label>
+                        <figcaption>A maior empresa <br>
+                            Em Três Continentes.</figcaption>
+                    </figure>
+                    <figure class="container">
+                        <img src="imagens/imagemN2.jpg" alt="imagem 2">
+                        <figcaption>A melhor amiga da <br> mãe natureza.</figcaption>
+                    </figure>
+                    <figure class="container">
+                        <img src="imagens/imagemN4.jpg" alt="imagem 3">
+                        <figcaption>Mais de 108 indústrias <br>
+                            espalhadas pelo globo.
+                        </figcaption>
+                    </figure>
                 </div>
             </section>
         </main>
