@@ -43,12 +43,13 @@ li, a, button, p{
     padding-right: 0.7vw;
 }
 
+
 button{
-    font-size: 1vw;
-    padding: .7vw 1.6vw;
+    font-size: 1.5vw;
+    padding: .8vw .8vw;
     background-color: gray;
     border: none;
-    border-radius: 15px;
+    border-radius: 20px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
